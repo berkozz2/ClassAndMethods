@@ -10,9 +10,9 @@ namespace Methods
     //Eğer bir yerde normal bir parantez görürseniz anlayın ki orada bir metod çalışıyor.
     public class SepetManager
     {
-        public void Add()
+        public void Add(Product product)
         {
-            Console.WriteLine("Tebrikler. Sepete Eklendi.");
+            Console.WriteLine(product.ProductName + " : " + "Tebrikler. Sepete Eklendi.");
         }
     }
 }

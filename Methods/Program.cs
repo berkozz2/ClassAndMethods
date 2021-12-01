@@ -27,10 +27,9 @@ Console.WriteLine("-------------Methods---------------");
 //Method bana tekrar tekrar kullanma imkanı verdi.
 
 SepetManager sepetManager = new SepetManager();
-sepetManager.Add();
-sepetManager.Add();
-sepetManager.Add();
-sepetManager.Add();
+sepetManager.Add(product1);
+sepetManager.Add(product2);
+
 
 
 
